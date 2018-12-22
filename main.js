@@ -1,4 +1,4 @@
-var Digit = {
+window.Digit = {
     extract(n, ...placeValues) {
         var res = 0;
         for(let place of placeValues) {
